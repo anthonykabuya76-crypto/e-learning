@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Fashion Store</h1>
+    <p>Your one-stop shop for all the latest trends!</p>
+  </header>
+
+  <section class="products">
+    <h2>Our Fashion Collection</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/dress.jpg" alt="Dress">
+        <h3>Elegant Dress</h3>
+        <p>$50</p>
+      </div>
+      <div class="product">
+        <img src="images/shoes.jpg" alt="Shoes">
+        <h3>Stylish Shoes</h3>
+        <p>$35</p>
+      </div>
+      <div class="product">
+        <img src="images/jacket.jpg" alt="Jacket">
+        <h3>Winter Jacket</h3>
+        <p>$70</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sales">
+    <h2>Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Offer</th>
+        <th>Discount</th>
+        <th>Valid Until</th>
+      </tr>
+      <tr>
+        <td>Buy 2 Get 1 Free</td>
+        <td>50%</td>
+        <td>October 10, 2025</td>
+      </tr>
+      <tr>
+        <td>End of Season Sale</td>
+        <td>30%</td>
+        <td>October 25, 2025</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="benefits">
+    <h2>Why Shop With Us?</h2>
+    <ul>
+      <li>High-quality, trendy fashion items.</li>
+      <li>Fast and secure delivery.</li>
+      <li>Exclusive discounts and loyalty programs.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Fashion Store. All rights reserved.
+  </footer>
+
+</body>
+</html>
